@@ -3,7 +3,7 @@ package com.bervie.pattern;
 import java.util.concurrent.*;
 
 /**
- * Created with IntelliJ IDEA
+ * 发电枪线程测试
  *
  * @author Bervie
  * @date 2019/06/07
