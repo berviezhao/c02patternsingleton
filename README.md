@@ -22,9 +22,9 @@ Spring中IOC容器ApplicationContex本身就是典型的饿汉式单例。
 
 饿汉式两种写法：
 
-一种是创建静态对象，在类加载时就被实例化。如：HungrySingleton
+一种是创建静态对象，在类加载时就被实例化。（HungrySingleton）
 
-另一种是利用静态代码块的机制，在静态代码块中实例化。如：HungryStaticSingleton
+另一种是利用静态代码块的机制，在静态代码块中实例化。（HungryStaticSingleton）
 
 适用：单例对象较少情况。
 ## 懒汉式单例
@@ -65,7 +65,7 @@ SeriableSingleton展示了实现序列化的单例会被反序列化的问题，
 ### 容器缓存式单例 （ContainerSingleton）
 特点：适用于创建实例非常多的情况，便于管理。但是，非线程安全的。
 同时Spring中也使用了的容器式单例
-## ThreadLocal线程单例 （ContainerSingleton）
+## ThreadLocal线程单例 （ThreadLocalSingleton）
 特点：不能保证其创建的全局唯一，但是能保证在单一线程中唯一，天生的线程安全。
 ## 单例模式小结
 单例模式可以保证内存中只有一个实例，减少了内存开销；可以避免对资源的多重占用。
