@@ -22,9 +22,9 @@ Spring中IOC容器ApplicationContex本身就是典型的饿汉式单例。
 
 饿汉式两种写法：
 
-一种是创建静态对象，在类加载时就被实例化。（HungrySingleton）
+一种是创建静态对象，在类加载时就被实例化。**（HungrySingleton）**
 
-另一种是利用静态代码块的机制，在静态代码块中实例化。（HungryStaticSingleton）
+另一种是利用静态代码块的机制，在静态代码块中实例化。**（HungryStaticSingleton）**
 
 适用：单例对象较少情况。
 ## 懒汉式单例
