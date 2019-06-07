@@ -1,8 +1,5 @@
 package com.bervie.pattern;
 
-import org.apache.commons.compress.archivers.tar.TarArchiveOutputStream;
-
-import java.io.FileOutputStream;
 
 /**
  * Created with IntelliJ IDEA
